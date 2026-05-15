@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:akuamt.github.io)",
+      "WebFetch(domain:hugo.opendocs.io)",
+      "Bash(./hugo.exe version *)",
+      "Bash(mv \"themes/hugo-theme-stack-4.0.2/hugo-theme-stack-4.0.2\" \"themes/stack-temp\")",
+      "Bash(rm -rf \"themes/hugo-theme-stack-4.0.2\")",
+      "Bash(mv \"themes/stack-temp\" \"themes/hugo-theme-stack\")",
+      "Bash(mv \"themes/hugo-theme-reimu-0.15.5/hugo-theme-reimu-0.15.5\" \"themes/reimu-temp\")",
+      "Bash(rm -rf \"themes/hugo-theme-reimu-0.15.5\")",
+      "Bash(mv \"themes/reimu-temp\" \"themes/hugo-theme-reimu\")",
+      "Bash(./hugo.exe)",
+      "Bash(./hugo.exe server *)",
+      "WebFetch(domain:github.com)",
+      "Bash(pkill -f \"hugo.exe\")",
+      "Bash(./hugo.exe --cleanDestinationDir)",
+      "Bash(mkdir -p static/avatar)",
+      "Bash(cp static/profile_picture.jpg static/avatar/avatar.jpg)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git branch *)",
+      "Bash(git remote *)"
+    ]
+  }
+}
