@@ -75,6 +75,9 @@ enableEmoji = true
   [params.quicklink]
     enable = true
 
+  [params.pjax]
+    enable = true
+
   [params.animation]
     enable = true
 
