@@ -25,3 +25,9 @@
 # 查看 Hugo 版本
 ./hugo.exe version
 ```
+
+```bash
+./hugo.exe new post/标题     # 创建
+  # 编辑 content/post/标题.md
+  git add . && git commit -m "新文章" && git push
+  ```

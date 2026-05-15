@@ -21,7 +21,25 @@
       "Bash(git add *)",
       "Bash(git commit *)",
       "Bash(git branch *)",
-      "Bash(git remote *)"
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(git config *)",
+      "Bash(curl -I https://github.com)",
+      "Bash(gh auth *)",
+      "Bash(curl *)",
+      "Bash(ssh -T git@github.com)",
+      "Bash(ssh-keyscan github.com)",
+      "Bash(mkdir -p ~/.ssh)",
+      "Bash(git count-objects *)",
+      "Bash(du -sh themes/)",
+      "Bash(git rm *)",
+      "Bash(git -c http.postBuffer=524288000 push -u origin main)",
+      "Bash(git ls-remote *)",
+      "Bash(GIT_CURL_VERBOSE=1 GIT_TRACE=1 git push -u origin main)",
+      "Bash(ping -n 1 github.com)",
+      "Bash(nslookup github.com)",
+      "Bash(git -c http.sslVerify=false push -u origin main)",
+      "Bash(git -c http.sslVerify=false push)"
     ]
   }
 }
