@@ -17,8 +17,6 @@ draft: false
 使用 Markdown 目前主流的工具有：
 
 Visual Studio Code：微软开发的免费编辑器。
-VScode 安装教程：https://www.runoob.com/vscode/vscode-tutorial.html  
-
 VScode 支持 Markdown 的扩展包括：
 - Markdown All in One：提供快捷键、目录生成、数学公式支持。
 - Markdown Preview Enhanced：增强的预览功能，支持图表和演示模式。
