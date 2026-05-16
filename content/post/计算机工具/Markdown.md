@@ -13,18 +13,20 @@ draft: false
 
 
 ## 1. **工具准备**
+
     使用 Markdown 目前主流的工具有：
 
-    Visual Studio Code：微软开发的免费编辑器，通过安装 Markdown 相关扩展，可以获得强大的编辑和预览功能
+    Visual Studio Code：微软开发的免费编辑器。
     VScode 安装教程：https://www.runoob.com/vscode/vscode-tutorial.html
     VScode 支持 Markdown 的扩展包括：
-    - Markdown All in One：提供快捷键、目录生成、数学公式支持
-    - Markdown Preview Enhanced：增强的预览功能，支持图表和演示模式
-    - markdownlint：语法检查和格式规范
+    - Markdown All in One：提供快捷键、目录生成、数学公式支持。
+    - Markdown Preview Enhanced：增强的预览功能，支持图表和演示模式。
+    - markdownlint：语法检查和格式规范。
 
-    Obsidian ：本地 Markdown 笔记系统，用文件夹和纯文本驱动知识结构，使用教程参考： https://www.runoob.com/markdown/obsidian-tutorial.html。
+    Obsidian ：本地 Markdown 笔记系统，用文件夹和纯文本驱动知识结构，
+    使用教程参考： https://www.runoob.com/markdown/obsidian-tutorial.html。
 
-    typora : Typora 是目前公认体验最好的桌面端 Markdown 编辑器
+    typora : Typora 是目前公认体验最好的桌面端 Markdown 编辑器。
     下载地址： https://typoraio.cn/releases/stable.html
 
 
@@ -67,12 +69,12 @@ draft: false
 
   1. **无序列表**  
 
-      - 无序列表使用星号(*)、加号(+)或是减号(-)作为列表标记，这些标记后面要添加一个空格，然后再填写内容  
+      - 无序列表使用星号(*)、加号(+)或是减号(-)作为列表标记，这些标记后面要添加一个空格，然后再填写内容。  
           > - 例如这样
 
   2. **有序列表**
 
-      - 有序列表使用数字并加上 . 号来表示
+      - 有序列表使用数字并加上 . 号来表示。
 
           > 1. 例如这样
 
@@ -85,8 +87,8 @@ draft: false
           ![实际图片](https://yuhou-hugo.oss-cn-beijing.aliyuncs.com/markdown-1)
 
   3. **嵌套**
-      - 列表可以嵌套使用，创建多层次的结构  
-      - 列表混合嵌套只需在子列表中的选项前面添加两个或四个空格即可
+      - 列表可以嵌套使用，创建多层次的结构。  
+      - 列表混合嵌套只需在子列表中的选项前面添加两个或四个空格即可。
 
           > 1. 主要任务
           >    - 子任务A
@@ -97,7 +99,7 @@ draft: false
           > 2. 次要任务
   
   4. **任务列表（复选框列表）**
-      - 任务列表是 GitHub 风格 Markdown 的扩展功能，现在被广泛支持
+      - 任务列表是 GitHub 风格 Markdown 的扩展功能，现在被广泛支持。
 
           > - [ ] 未完成的任务
           > - [x] 已完成的任务
@@ -105,7 +107,7 @@ draft: false
 
 ## 5. **表格**
 
- 1. Markdown 制作**表格使用** | 来分隔不同的单元格，使用 - 来分隔表头和其他行
+ 1. Markdown 制作**表格使用** | 来分隔不同的单元格，使用 - 来分隔表头和其他行。
      > |  表头   | 表头  |
      |  ----  | ----  |
      | 单元格  | 单元格 |
@@ -133,7 +135,7 @@ draft: false
 ## 6. **段落**
    
  1. **换行**
- - 段落的换行是使用两个以上空格加上回车  
+ - 段落的换行是使用两个以上空格加上回车。  
       ![实际图片](https://yuhou-hugo.oss-cn-beijing.aliyuncs.com/markdown-2) 
 
  2. **分割线**
@@ -168,7 +170,7 @@ draft: false
 ## 7. **代码**
 
  1. **代码行**
- - 如果是段落上的一个函数或片段的代码可以用反引号把它包起来（`）  
+ - 如果是段落上的一个函数或片段的代码可以用反引号把它包起来（`） 
     
       `printf()` 函数
 
@@ -200,64 +202,6 @@ draft: false
       > ![替代文字](图片路径 "图片标题")
 
 ## 10.  **其他操作**
-  - 插入latex公式
-      1. 行内显示公式(在公式前后加上$)
-   
-      ![具体图片](https://yuhou-hugo.oss-cn-beijing.aliyuncs.com/markdown-6)
-
-    $f(x) = ax + b$
-
-      2. LaTeX 数学公式基础
-         - 基本语法结构
-              > 命令：以反斜杠 \ 开头，如 \alpha、\sum
-              参数：用花括号 {} 包围，如 \frac{a}{b}
-              下标：使用 _，如 x_1
-              上标：使用 ^，如 x^2
-              分组：用花括号将多个字符组合，如 x_{i+1}
-         - 常用 LaTeX 命令
-              > \alpha, \beta, \gamma  
-              希腊字母
-
-              >\sum, \prod, \int      
-              求和、乘积、积分
-
-              >\frac{分子}{分母}      
-              分数
-
-              >\sqrt{表达式}          
-              平方根
-
-              >\sqrt[n]{表达式}       
-              n次根
-         - 多行公式
-          
-              ![具体图片](https://yuhou-hugo.oss-cn-beijing.aliyuncs.com/markdown-7)
-
-              $$
-                  \begin{align}
-                  f(x) &= ax^2 + bx + c \\
-                  f'(x)  &= 2ax + b \\
-                  f''(x)  &= 2a
-                  \end{align}
-                  $$
-
-         - 常用数学符号
-              ![具体图片](https://yuhou-hugo.oss-cn-beijing.aliyuncs.com/markdown-8)
-
-              ![具体图片](https://yuhou-hugo.oss-cn-beijing.aliyuncs.com/markdown-9)
-
-      3. 块内展示数学表达式(在表达式前后加上两个$$,表达式用LaTeX来表示)
-          
-          ![具体图片](https://yuhou-hugo.oss-cn-beijing.aliyuncs.com/markdown-10)
-
-      $$
-          \begin{pmatrix}
-          a & b \\
-          c & d
-          \end{pmatrix}
-          $$
-
-
   - html/css语法
       - Ctrl+Shift+p 搜索 "Markdown Preview Enhanced:Customize CSS"
       style中使用css语法改标题格式等等
