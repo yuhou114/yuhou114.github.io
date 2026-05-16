@@ -3,6 +3,7 @@ title: "Markdown"
 description: ""
 date: 2026-05-16T09:20:55+08:00
 lastmod: 2026-05-16T09:20:55+08:00
+cover: https://yuhou-hugo.oss-cn-beijing.aliyuncs.com/%E8%8A%99%E8%8A%99
 categories:
     - 计算机工具
 tags:
@@ -204,7 +205,7 @@ draft: false
    
       ![具体图片](https://yuhou-hugo.oss-cn-beijing.aliyuncs.com/markdown-6)
 
-      > $f(x) = ax + b$
+    $f(x) = ax + b$
 
       2. LaTeX 数学公式基础
          - 基本语法结构
@@ -239,6 +240,7 @@ draft: false
                   f''(x)  &= 2a
                   \end{align}
                   $$
+
          - 常用数学符号
               ![具体图片](https://yuhou-hugo.oss-cn-beijing.aliyuncs.com/markdown-8)
 
