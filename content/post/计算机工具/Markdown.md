@@ -14,20 +14,20 @@ draft: false
 
 ## 1. **工具准备**
 
-    使用 Markdown 目前主流的工具有：
+使用 Markdown 目前主流的工具有：
 
-    Visual Studio Code：微软开发的免费编辑器。
-    VScode 安装教程：https://www.runoob.com/vscode/vscode-tutorial.html
-    VScode 支持 Markdown 的扩展包括：
-    - Markdown All in One：提供快捷键、目录生成、数学公式支持。
-    - Markdown Preview Enhanced：增强的预览功能，支持图表和演示模式。
-    - markdownlint：语法检查和格式规范。
+Visual Studio Code：微软开发的免费编辑器。
+VScode 安装教程：https://www.runoob.com/vscode/vscode-tutorial.html
+VScode 支持 Markdown 的扩展包括：
+- Markdown All in One：提供快捷键、目录生成、数学公式支持。
+- Markdown Preview Enhanced：增强的预览功能，支持图表和演示模式。
+- markdownlint：语法检查和格式规范。
 
-    Obsidian ：本地 Markdown 笔记系统，用文件夹和纯文本驱动知识结构，
-    使用教程参考： https://www.runoob.com/markdown/obsidian-tutorial.html。
+Obsidian ：本地 Markdown 笔记系统，用文件夹和纯文本驱动知识结构，
+使用教程参考： https://www.runoob.com/markdown/obsidian-tutorial.html。
 
-    typora : Typora 是目前公认体验最好的桌面端 Markdown 编辑器。
-    下载地址： https://typoraio.cn/releases/stable.html
+typora : Typora 是目前公认体验最好的桌面端 Markdown 编辑器。
+下载地址： https://typoraio.cn/releases/stable.html
 
 
 ## 2. **标题**
