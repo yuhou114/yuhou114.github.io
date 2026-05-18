@@ -110,7 +110,7 @@ notAlternative = true
       categories = "杂谈"
 
   [params.injector]
-    head_end = '<link rel="stylesheet" href="https://npm.webcache.cn/aplayer@1.10.1/dist/APlayer.min.css">'
+    head_end = '<link rel="stylesheet" href="https://npm.webcache.cn/aplayer@1.10.1/dist/APlayer.min.css"><style>#logo,#subtitle{color:#5b9bd5!important}</style>'
     body_end = '<script src="https://npm.webcache.cn/aplayer@1.10.1/dist/APlayer.min.js"></script><script src="https://npm.webcache.cn/meting@2.0.1/dist/Meting.min.js"></script>'
     sidebar_begin = '<meting-js theme="var(--color-link)" id="7667652270" server="netease" type="playlist" fixed="false" order="random" list-folded="true"></meting-js>'
 
