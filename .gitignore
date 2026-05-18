@@ -4,3 +4,5 @@ resources/
 hugo.exe
 .playwright-mcp/
 *-screenshot.png
+.env
+node_modules/
