@@ -242,18 +242,6 @@ typora : Typora 是目前公认体验最好的桌面端 Markdown 编辑器。
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
 
-
-{{< gallery >}}
-![image](https://picsum.photos/800/600)
-![image](https://picsum.photos/600/800)
-![image](https://picsum.photos/700/500)
-![image](https://picsum.photos/900/600)
-![image](https://picsum.photos/500/700)
-![image](https://picsum.photos/800/500)
-![image](https://picsum.photos/650/850)
-![image](https://picsum.photos/750/550)
-{{< /gallery >}} 
-
 ## 11.  **其他操作**
   - html/css语法
       - Ctrl+Shift+p 搜索 "Markdown Preview Enhanced:Customize CSS"
