@@ -117,6 +117,13 @@ notAlternative = true
   [params.comment]
     default = "waline"
 
+  [params.algolia_search]
+    enable = true
+    appID = "IE6J7BAUTV"
+    apiKey = "6136aa330590e2192ca146f997601a52"
+    indexName = "hugo_yuhou"
+    [params.algolia_search.hits]
+      per_page = 10
 
 [languages.zh-CN]
   label = "简体中文"
