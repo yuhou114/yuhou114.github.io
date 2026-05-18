@@ -82,7 +82,7 @@ typora : Typora 是目前公认体验最好的桌面端 Markdown 编辑器。
           > 3. 第二项（实际显示为2）
           > 7. 第三项（实际显示为3）  
 
-          ![实际图片](https://yuhou-hugo.oss-cn-beijing.aliyuncs.com/markdown-1)
+          ![实际图片](https://yuhou-hugo.oss-cn-beijing.aliyuncs.com/%E6%96%87%E7%AB%A0%E5%9B%BE%E7%89%87/Markdown/markdown-1.png)
 
   3. **嵌套**
       - 列表可以嵌套使用，创建多层次的结构。  
@@ -134,7 +134,7 @@ typora : Typora 是目前公认体验最好的桌面端 Markdown 编辑器。
    
  1. **换行**
  - 段落的换行是使用两个以上空格加上回车。  
-      ![实际图片](https://yuhou-hugo.oss-cn-beijing.aliyuncs.com/markdown-2) 
+      ![实际图片](https://yuhou-hugo.oss-cn-beijing.aliyuncs.com/%E6%96%87%E7%AB%A0%E5%9B%BE%E7%89%87/Markdown/markdown-2.png) 
 
  2. **分割线**
  - 你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他
@@ -181,12 +181,12 @@ typora : Typora 是目前公认体验最好的桌面端 Markdown 编辑器。
       });
       ```
 
-      ![具体图片](https://yuhou-hugo.oss-cn-beijing.aliyuncs.com/markdown-3)
+      ![具体图片](https://yuhou-hugo.oss-cn-beijing.aliyuncs.com/%E6%96%87%E7%AB%A0%E5%9B%BE%E7%89%87/Markdown/markdown-3.png)
     
 ## 8. **超链接**
 
  - 链接使用方法如下
-      ![具体图片](https://yuhou-hugo.oss-cn-beijing.aliyuncs.com/markdown-4)
+      ![具体图片](https://yuhou-hugo.oss-cn-beijing.aliyuncs.com/%E6%96%87%E7%AB%A0%E5%9B%BE%E7%89%87/Markdown/markdown-4.png)
 
       > [链接名称](https://www.runoob.com/markdown/md-tutorial.html)
       > [链接文字](https://www.runoob.com/markdown/md-tutorial.html "可选的标题")
@@ -194,12 +194,67 @@ typora : Typora 是目前公认体验最好的桌面端 Markdown 编辑器。
 ## 9.  **图片**
 
  - Markdown 图片语法格式如下
-      ![具体图片](https://yuhou-hugo.oss-cn-beijing.aliyuncs.com/markdown-5)
+      ![具体图片](https://yuhou-hugo.oss-cn-beijing.aliyuncs.com/%E6%96%87%E7%AB%A0%E5%9B%BE%E7%89%87/Markdown/markdown-5.png)
 
       > ![替代文字](图片路径)
       > ![替代文字](图片路径 "图片标题")
 
-## 10.  **其他操作**
+## 10. **Github风格的Alert块引用（需要Hugo v0.132.0或更高版本）**
+
+共有 NOTE，TIP，IMPORTANT，WARNING，CAUTION 五种
+
+```Markdown
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+```
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+```Markdown
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+```
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+```Markdown
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+```
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+```Markdown
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+```
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+```Markdown
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+```
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
+
+{{< gallery >}}
+![image](https://picsum.photos/800/600)
+![image](https://picsum.photos/600/800)
+![image](https://picsum.photos/700/500)
+![image](https://picsum.photos/900/600)
+![image](https://picsum.photos/500/700)
+![image](https://picsum.photos/800/500)
+![image](https://picsum.photos/650/850)
+![image](https://picsum.photos/750/550)
+{{< /gallery >}} 
+
+## 11.  **其他操作**
   - html/css语法
       - Ctrl+Shift+p 搜索 "Markdown Preview Enhanced:Customize CSS"
       style中使用css语法改标题格式等等
@@ -207,7 +262,7 @@ typora : Typora 是目前公认体验最好的桌面端 Markdown 编辑器。
   - 个性化设置
       - File-Preferences-Settings 
   
-## 11. **图表绘制**
+## 12. **图表绘制**
 
   - 具体可查询[菜鸟教程](https://www.runoob.com/markdown/md-draw.html)
 
