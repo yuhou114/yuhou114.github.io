@@ -3,7 +3,6 @@ title: "Markdown"
 description: ""
 date: 2026-05-16T09:20:55+08:00
 lastmod: 2026-05-16T09:20:55+08:00
-cover: https://yuhou-hugo.oss-cn-beijing.aliyuncs.com/%E8%8A%99%E8%8A%99
 categories:
     - 计算机工具
 tags:
