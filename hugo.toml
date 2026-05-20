@@ -114,10 +114,17 @@ notAlternative = true
     body_end = '<script src="https://npm.webcache.cn/aplayer@1.10.1/dist/APlayer.min.js"></script><script src="https://npm.webcache.cn/meting@2.0.1/dist/Meting.min.js"></script>'
     sidebar_begin = '<meting-js theme="var(--color-link)" id="7667652270" server="netease" type="playlist" fixed="false" order="random" list-folded="true"></meting-js>'
 
+  # Algolia Search API Key 是 Search-Only Key，仅用于前端搜索，可安全公开
+  [params.algolia_search]
+    enable = true
+    appID = "IE6J7BAUTV"
+    apiKey = "6136aa330590e2192ca146f997601a52"
+    indexName = "hugo_yuhou"
+    [params.algolia_search.hits]
+      per_page = 10
+
   [params.comment]
     default = "waline"
-
-
 
 [languages.zh-CN]
   label = "简体中文"
