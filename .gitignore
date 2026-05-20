@@ -6,3 +6,4 @@ hugo.exe
 *-screenshot.png
 .env
 node_modules/
+commands.md
