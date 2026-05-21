@@ -7,7 +7,7 @@ categories:
     - 
 tags:
     - 
-draft: true
+draft: false
 ---
 
 给你一个由 n 个元素组成的整数数组 nums 和一个整数 k 。
