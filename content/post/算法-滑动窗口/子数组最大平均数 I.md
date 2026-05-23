@@ -4,9 +4,9 @@ description: ""
 date: 2026-05-21T11:38:06+08:00
 lastmod: 2026-05-21T11:38:06+08:00
 categories:
-    - 
+    - 算法-滑动窗口
 tags:
-    - 
+    - 算法
 draft: false
 ---
 
@@ -18,7 +18,7 @@ draft: false
 
 任何误差小于 10^-5 的答案都将被视为正确答案。
 
- 
+***
 
 - 示例 1：
 
@@ -36,6 +36,8 @@ draft: false
 > - n == nums.length  
 > - 1 <= k <= n <= 10^5  
 > - -10^4 <= nums[i] <= 10^4  
+
+*** 
 
 ## 题解
 

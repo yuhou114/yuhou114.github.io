@@ -4,9 +4,9 @@ description: ""
 date: 2026-05-22T23:08:52+08:00
 lastmod: 2026-05-22T23:08:52+08:00
 categories:
-    - 
+    - 算法-滑动窗口
 tags:
-    - 
+    - 算法
 draft: false
 ---
 
@@ -15,6 +15,8 @@ draft: false
 给你一个整数数组 arr 和两个整数 k 和 threshold 。
 
 请你返回长度为 k 且平均值大于等于 threshold 的子数组数目。
+
+***
 
 - 示例 1：
 
@@ -34,6 +36,8 @@ draft: false
 > - 1 <= arr[i] <= 10^4  
 > - 1 <= k <= arr.length  
 > - 0 <= threshold <= 10^4  
+
+***
 
 ## 题解
 

@@ -105,9 +105,9 @@ notAlternative = true
   [params.home_categories]
     enable = true
     [[params.home_categories.content]]
-      categories = "计算机工具"
+      categories = "科技周报"
     [[params.home_categories.content]]
-      categories = "杂谈"
+      categories = "计算机工具"
 
   [params.injector]
     head_end = '<link rel="stylesheet" href="https://npm.webcache.cn/aplayer@1.10.1/dist/APlayer.min.css"><style>#logo,#subtitle{color:var(--red-0)!important}.article-nav-link-wrap img{opacity:1!important}</style>'
