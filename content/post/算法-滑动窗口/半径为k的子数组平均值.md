@@ -1,6 +1,6 @@
 ---
 title: "半径为k的子数组平均值"
-description: ""
+description: "本题目为 2090.半径为 k 的子数组平均值 "
 date: 2026-05-23T00:22:16+08:00
 lastmod: 2026-05-23T00:22:16+08:00
 categories:

@@ -1,6 +1,6 @@
 ---
 title: "子数组最大平均数 I"
-description: ""
+description: "本题目为 643.子数组最大平均数 I"
 date: 2026-05-21T11:38:06+08:00
 lastmod: 2026-05-21T11:38:06+08:00
 categories:
@@ -10,7 +10,7 @@ tags:
 draft: false
 ---
 
-本题目为[子数组最大平均数 I](https://leetcode.cn/problems/maximum-average-subarray-i/description/)
+本题目为[643.子数组最大平均数 I](https://leetcode.cn/problems/maximum-average-subarray-i/description/)
 
 给你一个由 n 个元素组成的整数数组 nums 和一个整数 k 。
 

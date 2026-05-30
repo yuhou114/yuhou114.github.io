@@ -1,6 +1,6 @@
 ---
 title: "得到K个黑块的最少涂色次数"
-description: ""
+description: "本题目为 2379.得到 K 个黑块的最少涂色次数"
 date: 2026-05-23T11:27:47+08:00
 lastmod: 2026-05-23T11:27:47+08:00
 categories:
@@ -10,7 +10,7 @@ tags:
 draft: false
 ---
 
-本题目为[得到 K 个黑块的最少涂色次数](https://leetcode.cn/problems/minimum-recolors-to-get-k-consecutive-black-blocks/description/)
+本题目为[2379.得到 K 个黑块的最少涂色次数](https://leetcode.cn/problems/minimum-recolors-to-get-k-consecutive-black-blocks/description/)
 
 给你一个长度为 n 下标从 0 开始的字符串 blocks ，blocks[i] 要么是 'W' 要么是 'B' ，表示第 i 块的颜色。字符 'W' 和 'B' 分别表示白色和黑色。
 

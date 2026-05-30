@@ -1,6 +1,6 @@
 ---
 title: "长度为K子数组中的最大和"
-description: ""
+description: "本题目为 2461.长度为 K 子数组中的最大和"
 date: 2026-05-23T22:14:10+08:00
 lastmod: 2026-05-23T22:14:10+08:00
 categories:

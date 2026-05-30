@@ -1,6 +1,6 @@
 ---
 title: "找出数组中的所有K近邻下标"
-description: ""
+description: "本题目为 2200.找出数组中的所有 K 近邻下标"
 date: 2026-05-25T15:18:27+08:00
 lastmod: 2026-05-25T15:18:27+08:00
 categories:
