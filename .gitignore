@@ -8,3 +8,5 @@ hugo.exe
 node_modules/
 commands.md
 skills/
+.claude/
+static/images/export_urls*.csv
