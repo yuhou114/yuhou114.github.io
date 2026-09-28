@@ -111,8 +111,8 @@ notAlternative = true
 
   [params.injector]
     head_end = '<link rel="stylesheet" href="https://npm.webcache.cn/aplayer@1.10.1/dist/APlayer.min.css"><style>#logo,#subtitle{color:var(--red-0)!important}.article-nav-link-wrap img{opacity:1!important}</style>'
-    body_end = '<script src="https://npm.webcache.cn/aplayer@1.10.1/dist/APlayer.min.js"></script><script src="https://npm.webcache.cn/meting@2.0.1/dist/Meting.min.js"></script>'
-    sidebar_begin = '<meting-js theme="var(--color-link)" id="7667652270" server="netease" type="playlist" fixed="false" order="random" list-folded="true"></meting-js>'
+    body_end = '<script src="https://npm.webcache.cn/aplayer@1.10.1/dist/APlayer.min.js"></script><script>(function(){var API="https://api.injahow.cn/meting/?server=netease&type=playlist&id=7667652270&r=";var BATCH=20,THRESHOLD=5;var el=document.getElementById("lazy-player");if(!el||!window.APlayer||el.querySelector(".aplayer"))return;fetch(API+Math.random()).then(function(r){return r.json()}).then(function(data){for(var i=data.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=data[i];data[i]=data[j];data[j]=t}var tracks=data.map(function(s){return{name:s.name,artist:s.artist,url:s.url,cover:s.pic,lrc:s.lrc,theme:"var(--color-link)"}});var ap=new APlayer({container:el,theme:"var(--color-link)",loop:"all",order:"list",preload:"none",mutex:true,listFolded:true,listMaxHeight:"250px",storageName:"metingjs",lrcType:3,audio:tracks.slice(0,BATCH)});window._lazyAP=ap;var loaded=BATCH;var topUp=function(){if(loaded<tracks.length&&ap.list.index>=loaded-THRESHOLD){ap.list.add(tracks.slice(loaded,loaded+BATCH));loaded+=BATCH}};ap.on("play",topUp);ap.on("ended",topUp)}).catch(function(e){console.error("lazy-player init failed:",e)})})();</script>'
+    sidebar_begin = '<div id="lazy-player"></div>'
 
   # Algolia Search API Key 是 Search-Only Key，仅用于前端搜索，可安全公开
   [params.algolia_search]
